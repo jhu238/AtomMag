@@ -10,7 +10,7 @@ module load pgi
 
 ### 2. Compile the code 
 ```
-pgf90 -acc -Minfo=accel -o AtomMag 2D_HCP.f90
+pgf90 -acc -Minfo=accel -o AtomMag AtomMag.f90
 ```
 
 ### 3.Run the code
