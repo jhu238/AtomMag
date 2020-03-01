@@ -1,0 +1,32 @@
+200       200         1                !Nx Ny Nz number of grids at x, y, z direction
+2.500E-10 2.500E-10 4.00E-10         !ax ay az lattice parameter at x, y, z direction(m)
+4                                    !flagLattice: 1-Face centered cubic(FCC)    2-simple cubic(SC)   3-Hexagonal closed-packed (HCP) 4-2D Hexagonal lattice
+2                                    !flagShape:   1-simple square     2-circular shape
+
+3.03E-23                           !magnetic momentum(J/T)
+1.27E-20                            !Heisenberg exchange constant(J)
+1.18E-22                            !Dzyaloshinskii–Moriya interaction(DMI) constant(J)
+1                                    !type of DMI interaction: 1-interfacial type   2-bulk type
+5.50E-23                            !uniaxial anisotropy constant(J)
+0.        0.        1.               !direction of easy axis(unit vector)
+0.		  0.		0.	             !Bx,By,Bz external magnetic field(T)
+0.                                    !strength of Field-like torque
+0.                                    !strenght of damping-like torque
+1.        0.        0.               !the orientation of the effective spin polarization
+1.76E11                              !gyromagnetic ratio(rad Hz/T)
+0.31   							     !damping constant
+
+1                                    !flagSpin inital distribution of spin: 0-read 'magnt.in' 1-uniform   2-random  3-only for 1D testing 4-only for 2D testing
+
+0                                    !begin time step: usually use 0
+200                                   !end time step
+100                                   !interval for output of average magnetization, energy
+100                               !interval for output of magentization distribution
+1E-15                               !time for each step(s)
+
+1                                    !flagSolver: 1-Runge–Kutta method
+
+0                                    !flagOutputB: 0-not output 1-output
+
+0                                    !flagreadin: 0-no input 1-input
+36096                                !number of total atoms
