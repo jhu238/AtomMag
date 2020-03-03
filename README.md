@@ -13,12 +13,12 @@ This repo contains the source code of a GPU-parallel Atomistic Spin Dynamics mod
 module load pgi
 ```
 
-### 2. Compile the code 
+### 2. Compile
 ```
 pgf90 -acc -Minfo=accel -o AtomMag AtomMag.f90
 ```
 
-### 3.Run the code
+### 3.Run
 ```
 ./AtomMag
 ```
